@@ -1,0 +1,10 @@
+@startgantt
+Project starts 2026-10-01
+[需求分析] lasts 5 days
+[系统设计] lasts 7 days
+[系统设计] starts at [需求分析]'s end
+[编码开发] lasts 15 days
+[编码开发] starts at [系统设计]'s end
+[测试上线] lasts 5 days
+[测试上线] starts at [编码开发]'s end
+@endgantt
